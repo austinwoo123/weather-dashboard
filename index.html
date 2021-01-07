@@ -13,46 +13,68 @@
 
 
 <body>
+
     <!--Jumbotron goes here-->
     <div class="jumbotron container-fluid text-center p-2" style="background-color:#464141 ;color: white;">
         <h1> <i>Weather Dashboard</i></h1>
+
     </div>
 
     <!--Search for a city goes here-->
-    <div class="container">
+    <div class="container-fluid">
 
         <div class="row">
-            <div class="col-4 bg-light">
+            <div class="col-md-4 bg-light ">
                 <h2> <strong>Search for a City: </strong> </h2>
                 <input class="form-control" id="search-term" type="text">
-
+                <!--Search Button goes here-->
                 <button class="btn bg-primary text-light" id="search-button">
                     <h6>Search</h6>
                 </button>
+                <!--Search History of cities goes heres-->
+                <u1 class="list-group">
+
+
+                </u1>
             </div>
+            <!--Selected City's weather condition goes here-->
+            <div class="col-md-8">
+                <div class="row border border-dark rounded">
+                    <div class="col-sm-12" id="current-Conditions">
+                        <h4 class="city-name mb-1 mt-2 bolder" id="current-city"></h4>
+                        <i>
+                            <p>Temperature:
+                        </i> <span class="current" id="temp"></span></p>
+                        <i>
+                            <p>Humidity:
+                        </i> <span class="current" id="humidity"></span></p>
+                        <i>
+                            <p>Wind Speed:
+                        </i> <span class="current" id="wind"></span></p>
+                        <i>
+                            <p>Uv Index:
+                        </i> <span class="current" id="uv"></span></p>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
 
         </div>
     </div>
 
 
     </div>
-    </div>
-
-
-
-    </div>
 
 
 
 
-
-
-
-
-    </div>
-
-
-    </div>
 
 
 
